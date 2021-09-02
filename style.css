@@ -264,7 +264,7 @@ footer {
   font-size: 20px;
   width: 50%; }
 
-#liveDemo {
+.liveDemo {
   text-align: center;
   font-size: 2em;
   cursor: pointer;
