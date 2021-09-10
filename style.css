@@ -340,13 +340,11 @@ footer {
   animation: effect 0.4s infinite; }
 
 
-#screenshot{
-  
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  
+#screenshot{  
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  z-index: -1;
 }
 
 @keyframes effect {
