@@ -115,8 +115,8 @@ a:hover {
   font-size: 2em;
   display: block;
   margin: 0 auto;
-  color: #212121;
-  padding-bottom: 60px; }
+  color: #212121; 
+}
 
 .well {
   min-height: 300px; }
@@ -339,6 +339,9 @@ footer {
 .flag:hover {
   animation: effect 0.4s infinite; }
 
+.flag {
+  padding-bottom: 10px;
+}
 
 @keyframes effect {
   0% {
@@ -394,7 +397,7 @@ footer {
   #small-intro {
     width: 80%;
     font-size: 5vw;
-    padding-bottom: 40px; }
+  }
   #borderText {
     font-size: 5.5vw; }
   #qualif {
@@ -431,5 +434,7 @@ footer {
   .view {
     font-size: 5.5vw; } }
 
-
-    
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
